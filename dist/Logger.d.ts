@@ -1,7 +1,7 @@
-import LoggerConfig from './LoggerConfig';
-import LogLevel from './LogLevel';
-import RequestIdFactory from './RequestIdFactory';
-export default class Logger {
+import { LoggerConfig } from './LoggerConfig';
+import { LogLevel } from './LogLevel';
+import { RequestIdFactory } from './RequestIdFactory';
+export declare class Logger {
     private static _instance;
     private _logger;
     private static _requestIdFactory;

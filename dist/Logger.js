@@ -21,16 +21,16 @@ class Logger {
         this._logger.log(level, message, hydratedContext);
     }
     error(message, context = {}) {
-        this.log(LogLevel_1.default.ERROR, message, context);
+        this.log(LogLevel_1.LogLevel.ERROR, message, context);
     }
     warn(message, context = {}) {
-        this.log(LogLevel_1.default.WARN, message, context);
+        this.log(LogLevel_1.LogLevel.WARN, message, context);
     }
     info(message, context = {}) {
-        this.log(LogLevel_1.default.INFO, message, context);
+        this.log(LogLevel_1.LogLevel.INFO, message, context);
     }
     debug(message, context = {}) {
-        this.log(LogLevel_1.default.DEBUG, message, context);
+        this.log(LogLevel_1.LogLevel.DEBUG, message, context);
     }
     markNewRequest() {
         this._requestId = Logger._requestIdFactory.create();
@@ -71,5 +71,5 @@ class Logger {
         return this._requestId;
     }
 }
-exports.default = Logger;
+exports.Logger = Logger;
 //# sourceMappingURL=Logger.js.map

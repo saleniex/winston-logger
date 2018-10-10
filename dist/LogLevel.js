@@ -7,6 +7,5 @@ var LogLevel;
     LogLevel["INFO"] = "info";
     LogLevel["VERBOSE"] = "verbose";
     LogLevel["DEBUG"] = "debug";
-})(LogLevel || (LogLevel = {}));
-exports.default = LogLevel;
+})(LogLevel = exports.LogLevel || (exports.LogLevel = {}));
 //# sourceMappingURL=LogLevel.js.map

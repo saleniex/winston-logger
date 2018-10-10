@@ -1,3 +1,3 @@
-export default class RequestIdFactory {
+export declare class RequestIdFactory {
     create(): string;
 }

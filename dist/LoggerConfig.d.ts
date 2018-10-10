@@ -1,5 +1,5 @@
-import LogLevel from './LogLevel';
-export default interface LoggerConfig {
+import { LogLevel } from './LogLevel';
+export interface LoggerConfig {
     enableConsole: boolean;
     consoleLevel: LogLevel;
     logFileName: String;

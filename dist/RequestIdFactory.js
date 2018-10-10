@@ -6,5 +6,5 @@ class RequestIdFactory {
         return crypto.randomBytes(8).toString("hex");
     }
 }
-exports.default = RequestIdFactory;
+exports.RequestIdFactory = RequestIdFactory;
 //# sourceMappingURL=RequestIdFactory.js.map
