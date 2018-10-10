@@ -7,14 +7,15 @@ Winston logger wrapper
 ```javascript 1.8
 import Logger from './Logger';
 
-const createLoggerInstance = () => {
-    Logger.createInstance({
-        enableConsole: true,
-        consoleLevel: 'debug',
-        logFileName: 'app.log',
-        logFileLevel: 'error',
-    });
+// Init part
+const config = {
+   enableConsole: true,
+   consoleLevel: 'debug',
+   logFileName: 'app.log',
+   logFileLevel: 'error',
 };
+Logger.createInstance(config);
 
-createLoggerInstance();
+// Looging
+Logger.instance().info('Log this', {config: config});
 ```
