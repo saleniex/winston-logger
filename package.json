@@ -10,6 +10,7 @@
     "log",
     "logger"
   ],
+  "repository": "https://github.com/saleniex/winston-logger.git",
   "author": "uj@mobilly.lv",
   "license": "0BSD",
   "devDependencies": {
