@@ -1,9 +1,9 @@
 import * as winston from 'winston';
-import LoggerConfig from './LoggerConfig';
-import LogLevel from './LogLevel';
-import RequestIdFactory from './RequestIdFactory';
+import {LoggerConfig} from './LoggerConfig';
+import {LogLevel} from './LogLevel';
+import {RequestIdFactory} from './RequestIdFactory';
 
-export default class Logger {
+export class Logger {
     private static _instance: Logger;
     private _logger: winston.Logger;
     private static _requestIdFactory: RequestIdFactory;
