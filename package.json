@@ -1,5 +1,5 @@
 {
-  "name": "winston-logger",
+  "name": "simple-winston-logger",
   "version": "1.0.0",
   "description": "Winston logger wrapper",
   "main": "dist/index.js",
